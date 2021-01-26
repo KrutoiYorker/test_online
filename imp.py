@@ -1,7 +1,9 @@
 import requests
 
 #bel_bank="https://www.nbrb.by/api/exrates/rates/USD?parammode=2"
-#requests.get (bel_bank, verify=False)
-#print (requests.get (bel_bank).json())
+#requests.get("https://audioboom.com/channel/kingfallsam")
+test=requests.get("https://audioboom.com/channel/kingfallsam")
+
+print(test.json()) #возвращает html
 
 
